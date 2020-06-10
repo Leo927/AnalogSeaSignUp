@@ -1,0 +1,94 @@
+*{
+	box-sizing: border-box;
+}
+
+
+body{
+	background-color: #8FADFF;
+}
+
+*{
+	font-family: arial;
+}
+
+.logo_container{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.logo_container img{
+	height: 35px;
+}
+
+.signup-container{
+	text-align: center;
+	background-color: white;
+	border-radius: 5px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.signup-title{
+	text-align: center;
+	padding:30px;
+	font-size: 32px;
+
+}
+
+.signup-container .input-field,
+.signup-container .signup-button{
+	width: 320px;
+	margin: 15px;
+	border: 2px grey solid;
+	height: 55px;
+}
+
+.signup-container .input-label{
+	text-align: left!important;
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	font-size: 20px;
+}
+
+.signup-button{
+	font-size: 28px;
+	background-color: #16CC6E;
+	color: white;
+	border-color: #16CC6E!important;
+}
+
+.signup-button:hover{
+	background-color: #0A572F;
+}
+
+.signup-button:active{
+	transform: translateY(3px);
+}
+
+.signup-container .input-field{
+	background: rgba(0,0,0,0.04);
+	font-size: 24px;
+	color: rgba(0,0,0,0.4);
+}
+
+.forgot-pas{
+	color: rgba(0,0,0,0.4);
+	padding-bottom: 40px;
+	display: block;
+}
+
+.login{
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.login a:link,
+.login a:visited{
+	color: white;
+}

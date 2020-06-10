@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Analog Sea Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="sign_up.css">
+</head>
+<body>
+	<div class="logo_container">
+		<img src="https://curricula.thinkful.com/curricula/s1lUoigoX28V3JL7MWMR/FEWD-001/v5/assets2/1.6.2_challenge_signup_form/logo.png" alt="company logo">
+	</div>
+	<div class="signup-container">
+		<form action="/singup" method="post">
+			<div class="signup-title">Sign Up</div>
+			
+
+			<label class="input-label" for="email">Email</label>
+			<input class="input-field" required type="email" name="email" placeholder="foo@bar.com">
+
+			<label class="input-label" for="password">Password</label>
+			<input class="input-field" type="password" required name="password" placeholder="1234password">
+
+			<button class="signup-button" type="submit" >Sign Up</button>
+		</form>
+		<div><a href="/forgot-password/new" class="forgot-pas">Forgot password?</a></div>
+	</div>
+
+	<div class="login">Already have an account? <a href="/login">Log in</a></div>		
+</body>
+</html>
